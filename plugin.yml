@@ -1,0 +1,11 @@
+name: WumpusNPC
+main: clary\wumpus\Main
+version: 1.0.0
+api: [5.0.0]
+author: ivanrios
+description: NPC de Wumpus que envia el enlace de Discord al interactuar con el.
+
+permissions:
+  wumpusnpc.command:
+    description: "Acceso al comando /wumpus"
+    default: op
